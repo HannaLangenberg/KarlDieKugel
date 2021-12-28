@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="UCanAccess">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Installs/UCanAccess" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Installs/UCanAccess" recursive="false" />
+  </library>
+</component>

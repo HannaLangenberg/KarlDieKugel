@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Highscore.HighscoreController">
+    <children>
+        <ImageView fitHeight="415.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../bilder/HintergrundKarlDieKugel.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="neuesFensterButton" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" onAction="#backOnAction" style="-fx-background-color: #ffffff; -fx-background-radius: 10; -fx-border-color: #000000; -fx-border-radius: 5; -fx-border-width: 1;" text="Zurück">
+            <font>
+                <Font name="Franklin Gothic Book" size="13.0" />
+            </font>
+        </Button>
+        <Label layoutX="210.0" layoutY="27.0" prefHeight="62.0" prefWidth="180.0" text="HIGHSCORE" textAlignment="CENTER">
+            <font>
+                <Font name="Franklin Gothic Demi Cond" size="38.0" />
+            </font>
+        </Label>
+        <TableView fx:id="Tabelle" layoutX="129.0" layoutY="125.0" prefHeight="200.0" prefWidth="342.0">
+            <columns>
+                <TableColumn fx:id="Name" prefWidth="171.0" style="-fx-background-color: #ccffcc;" text="Name" />
+                <TableColumn fx:id="Score" prefWidth="171.0" style="-fx-background-color: ccffff;" text="Score" />
+            </columns>
+        </TableView>
+        <Separator layoutX="200.0" layoutY="87.0" prefWidth="200.0" />
+    </children>
+</AnchorPane>

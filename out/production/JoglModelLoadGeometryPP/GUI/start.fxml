@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.StartController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="626.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../bilder/HintergrundKarlDieKugel.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="startButton" layoutX="340.0" layoutY="221.0" mnemonicParsing="false" onAction="#startOnAction" prefHeight="59.0" prefWidth="230.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-radius: 5; -fx-border-width: 4; -fx-background-radius: 10;" text="START" textAlignment="CENTER">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="31.0" />
+         </font>
+      </Button>
+      <Button fx:id="neuesFensterButton" layoutX="350.0" layoutY="297.0" mnemonicParsing="false" onAction="#highscoreOnAction" prefHeight="40.0" prefWidth="210.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-radius: 5; -fx-border-width: 3; -fx-background-radius: 11;" text="HIGHSCORE">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="380.0" layoutY="14.0" prefHeight="101.0" prefWidth="150.0" text="KARL" textFill="#5f6868">
+         <font>
+            <Font name="MV Boli" size="51.0" />
+         </font>
+      </Label>
+      <Label layoutX="387.0" layoutY="57.0" prefHeight="86.0" prefWidth="150.0" text="DIE KUGEL" textAlignment="CENTER" textFill="#b0b0b0">
+         <font>
+            <Font name="MV Boli" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgKarl" fitHeight="278.0" fitWidth="259.0" layoutX="35.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../bilder/KarlDieKugelSprechblase.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="109.0" layoutY="128.0" prefHeight="20.0" prefWidth="115.0" rotate="-12.5" text="Hallo, ich bin Karl!" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="MV Boli" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="99.0" layoutY="139.0" prefHeight="60.0" prefWidth="150.0" rotate="-12.5" text="Hilf mir den Weg durch das Labyrinth zu finden." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="MV Boli" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="namefield" alignment="CENTER" layoutX="340.0" layoutY="169.0" prefHeight="34.0" prefWidth="230.0" promptText="NAME" style="-fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-radius: 5; -fx-border-width: 3; -fx-background-radius: 10;">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

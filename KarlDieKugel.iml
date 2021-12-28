@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jogl 2.3.2" level="application" />
+    <orderEntry type="library" name="OBJLoader-3.0.0" level="application" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="opencv-440" level="application" />
+    <orderEntry type="library" name="UCanAccess" level="project" />
+  </component>
+</module>

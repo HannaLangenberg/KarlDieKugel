@@ -9,8 +9,8 @@ This was used to tilt a labyrinth which was modeled, loaded and controlled via O
 <img src="https://github.com/HannaLangenberg/KarlDieKugel/blob/main/resources/pictures/MainMenu.jpg" width="450">
 
 ### Picture of the labyrinth and how it is controlled:
-<br/><img src="https://github.com/HannaLangenberg/KarlDieKugel/blob/main/resources/pictures/InGameLabyrinth.png" height="296">
-<img src="https://github.com/HannaLangenberg/KarlDieKugel/blob/main/resources/pictures/InGameTracking.png" height="296">
+<br/><img src="https://github.com/HannaLangenberg/KarlDieKugel/blob/main/resources/pictures/InGameLabyrinth.png" height="275">
+<img src="https://github.com/HannaLangenberg/KarlDieKugel/blob/main/resources/pictures/InGameTracking.png" height="275">
 
 ## Videos to demonstrate how the program works:<br/>
 ### Video processing:

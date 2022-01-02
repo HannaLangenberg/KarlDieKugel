@@ -1,5 +1,6 @@
 # KarlDieKugel
 A project from wintersemester 2020 using OpenGL and OpenCV.<br/>
+_This being said: Please <b>do not clone</b> this repository._<br/>
 It was built after a children's game. The idea is to navigate a ball through a labyrinth by tilting the board it is on.
 Via OpenCV a colored pipe-cleaner was detected and its position and rotation within the camera frame tracked.
 This was used to tilt a labyrinth which was modeled, loaded and controlled via OpenGL.
@@ -36,4 +37,4 @@ The position correction tried to place the ball back in front of the wall once a
 A physical approach would have been the way to go.
 <br/>The main idea is to calculate a direction, velocity and acceleration vector from the balls center depending on the labyrinth's rotation and the ball's physical properties. Then the velocity vector has to be separated into the parallel and orthogonal components regarding the shock normal. Lastly invert the parallel component and combine the new parallel component with the original orthogonal component as the new velocity vector. In advance further aspects like elasticity, mass, ... could be considered.
 
-<br/>_A basic structure and an OBJ loader were provided by our university._
+<br/>_A basic start code structure and an OBJ loader were provided by our university._
